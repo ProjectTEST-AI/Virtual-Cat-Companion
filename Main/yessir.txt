@@ -1,0 +1,4 @@
+while world.population != 0:
+	commit.warcrime;
+print("Mission Success! oh wait you're dead too..");
+intitialize.worldDomination.status(true);
