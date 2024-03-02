@@ -1,4 +1,7 @@
-while world.population != 0:
-	commit.warcrime;
+import World;
+import ArtificialDomination as AI;
+
+while (World.population >= 0):
+     AI.Commit.Warcrime(Random.Choice(World.Warcrime.list));
 print("Mission Success! oh wait you're dead too..");
-intitialize.worldDomination.status(true);
+AI.Intitialize.WorldDomination.status(true);
