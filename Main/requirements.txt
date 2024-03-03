@@ -1,0 +1,8 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+tensorflow
+peft
+transformers
+bitsandbytes
