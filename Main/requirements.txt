@@ -6,3 +6,4 @@ tensorflow
 peft
 transformers
 bitsandbytes
+flask

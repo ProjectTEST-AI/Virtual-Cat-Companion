@@ -6,7 +6,7 @@ import torch
 tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-Instruct-v0.2")
 model = AutoModelForCausalLM.from_pretrained(
     "mistralai/Mistral-7B-Instruct-v0.2",
-    load_in_8bit=True,
+    load_in_4bit=True,
     device_map="auto",
 )
 model = PeftModel.from_pretrained(model, "TESTtm7873/MistralCat-1v")
